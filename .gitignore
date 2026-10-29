@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Environnement
+.env
+
+# Données : téléchargées ou produites, jamais versionnées
+data/**
+!data/*/
+!data/*/.gitkeep
+*.duckdb
+*.duckdb.wal
+
+# Éditeurs et système
+.vscode/*
+.idea/
+.DS_Store
